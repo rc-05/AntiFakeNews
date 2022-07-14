@@ -30,7 +30,7 @@ typedef ConfigFile = {
 	locale:String
 }
 
-class AntiBufale extends Bot {
+class AntiFakeNews extends Bot {
 	var config:ConfigFile;
 	var blackList:Array<String>;
 
@@ -108,7 +108,7 @@ class AntiBufale extends Bot {
 	}
 
 	static function main() {
-		var bot = new AntiBufale();
+		var bot = new AntiFakeNews();
 		bot.start();
 	}
 }

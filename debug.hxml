@@ -1,6 +1,6 @@
 --class-path src
 --cpp build
---main AntiBufale
+--main AntiFakeNews
 --debug
 
 --dce full
