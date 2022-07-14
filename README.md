@@ -41,6 +41,13 @@ earlier, as parameters to cmd line arguments.
 - English (`en`)
 - Italiano (`it`)
 
+If the locale is not specified the bot will fallback to the English language.
+
 ## License
 
 This project is licensed with the [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
+
+## Credits
+
+- butac.it and the [following repo](https://github.com/flodd/butac_black_list) for supplying the
+black_list.json file where the black_list.txt file was created from.
