@@ -1,0 +1,14 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "HXCPP",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/AntiBufale-debug",
+			"windows": {
+				"program": "${workspaceFolder}/build/AntiBufale-debug.exe",
+			}
+		}
+	]
+}
